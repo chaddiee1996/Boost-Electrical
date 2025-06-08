@@ -190,17 +190,17 @@ export default function ContactSection() {
                           <FormLabel className="text-sm font-medium text-boost-dark">Service Type</FormLabel>
                           <Select onValueChange={field.onChange} defaultValue={field.value}>
                             <FormControl>
-                              <SelectTrigger className="focus:ring-boost-orange focus:border-boost-orange">
+                              <SelectTrigger className="focus:ring-boost-orange focus:border-boost-orange bg-white border border-gray-200 shadow-sm rounded-md">
                                 <SelectValue placeholder="Select a service" />
                               </SelectTrigger>
                             </FormControl>
-                            <SelectContent>
-                              <SelectItem value="renewable">Renewable Energy Solutions</SelectItem>
-                              <SelectItem value="smart-home">Smart Home Technology</SelectItem>
-                              <SelectItem value="commercial">Commercial & Industrial</SelectItem>
-                              <SelectItem value="eicr">EICR Testing & Compliance</SelectItem>
-                              <SelectItem value="design">Electrical Design & Consultancy</SelectItem>
-                              <SelectItem value="domestic">Domestic Services</SelectItem>
+                            <SelectContent className="bg-white border border-gray-200 rounded-md shadow-lg z-50">
+                              <SelectItem value="renewable" className="hover:bg-gray-50 focus:bg-boost-orange focus:text-white cursor-pointer p-2">Renewable Energy Solutions</SelectItem>
+                              <SelectItem value="smart-home" className="hover:bg-gray-50 focus:bg-boost-orange focus:text-white cursor-pointer p-2">Smart Home Technology</SelectItem>
+                              <SelectItem value="commercial" className="hover:bg-gray-50 focus:bg-boost-orange focus:text-white cursor-pointer p-2">Commercial & Industrial</SelectItem>
+                              <SelectItem value="eicr" className="hover:bg-gray-50 focus:bg-boost-orange focus:text-white cursor-pointer p-2">EICR Testing & Compliance</SelectItem>
+                              <SelectItem value="design" className="hover:bg-gray-50 focus:bg-boost-orange focus:text-white cursor-pointer p-2">Electrical Design & Consultancy</SelectItem>
+                              <SelectItem value="domestic" className="hover:bg-gray-50 focus:bg-boost-orange focus:text-white cursor-pointer p-2">Domestic Services</SelectItem>
                             </SelectContent>
                           </Select>
                           <FormMessage />
