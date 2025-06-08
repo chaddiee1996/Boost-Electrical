@@ -1,0 +1,197 @@
+Create a premium, modern electrical contractor website for "Boost Electrical" with the following specifications:
+Branding & Color Scheme:
+
+Primary Orange: #f19320 (vibrant orange from logo)
+Primary Dark: #3a3a3c (charcoal gray from logo)
+Supporting colors:
+
+Light Orange: #ff9f44 (for hover states)
+White: #ffffff
+Light Gray: #f8f9fa (for backgrounds)
+Dark overlay: rgba(58, 58, 60, 0.9)
+
+
+
+Technical Implementation:
+
+Fully responsive, mobile-first design
+CSS Grid & Flexbox layouts
+AOS (Animate On Scroll) library
+Particle.js for dynamic background effects
+Font Awesome 6 icons throughout
+Smooth scrolling and parallax effects
+CSS transforms and transitions
+Lazy loading for optimal performance
+
+Typography:
+
+Headers: Montserrat (bold, modern)
+Body: Open Sans (clean, readable)
+Accent text: Roboto (for technical specifications)
+
+Required Sections & Features:
+1. Hero Section
+
+Full-screen background: Professional electrician working with solar panels/smart home tech
+Animated particle overlay with electrical-themed elements
+Logo prominently displayed
+Headline: "Powering Your Future with Smart, Sustainable Solutions"
+Subheading: "Colchester's Premier Electrical Contractors - From Green Energy to Smart Homes"
+Two prominent CTAs: "Get Free Quote" (orange) & "Call 01206 645 155" (outlined)
+Service badges: "Fully Insured • NICEIC Approved • Emergency Callouts"
+Animated electrical bolt graphics
+
+2. Services Section
+
+6-card grid layout with hover animations:
+
+Renewable Energy Solutions (fa-solar-panel)
+
+Solar panel installations, EV charging stations
+
+
+Smart Home Technology (fa-home-alt)
+
+Lighting, security, automation systems
+
+
+Commercial & Industrial (fa-industry)
+
+Office fit-outs, industrial projects
+
+
+EICR Testing & Compliance (fa-clipboard-check)
+
+Same-day certification, PAT testing
+
+
+Electrical Design & Consultancy (fa-drafting-compass)
+
+Custom solutions, planning
+
+
+Domestic Services (fa-house-user)
+
+Rewiring, repairs, installations
+
+
+
+
+Each card: icon, title, brief description, "Learn More" link
+Cards lift on hover with orange glow effect
+
+3. Why Choose Boost Electrical
+
+Split-screen layout with animated counters:
+
+Years of Experience: 10+
+Projects Completed: 500+
+Happy Customers: 250+
+Emergency Response Time: <2 Hours
+
+
+Key differentiators with icons:
+
+Renewable Energy Specialists (fa-leaf)
+Smart Home Experts (fa-brain)
+Same-Day Certification (fa-certificate)
+Competitive Pricing (fa-pound-sign)
+
+
+
+4. Recent Projects Gallery
+
+Masonry/Pinterest-style layout
+Categories: Commercial, Domestic, Renewable Energy, Smart Homes
+Lightbox functionality with project details
+Before/after slider comparisons
+Filter buttons for different project types
+
+5. Customer Reviews
+
+Carousel featuring the existing testimonials:
+
+Neil (Cambridge), Sandra (Colchester), Jessica (Braintree), Alessandro (Ipswich)
+
+
+5-star rating displays with Font Awesome stars
+Facebook review integration mention
+Customer location tags
+Auto-rotating testimonials
+
+6. Service Areas Map
+
+Interactive map highlighting coverage area
+Location pins for Colchester, Cambridge, Braintree, Ipswich
+"We cover East Essex and surrounding areas"
+Distance calculator from Colchester
+
+7. Contact & Quote Section
+
+Split layout: Contact form left, business info right
+Form fields: Name, Email, Phone, Service Type, Message
+Business hours, emergency contact info
+Embedded Google Maps
+Social media links (Facebook mentioned)
+"Free Quote Within 24 Hours" guarantee
+
+8. Pricing Information
+
+Professional pricing table layout
+Service categories with starting prices
+"Request Detailed Quote" for each service
+Transparent pricing promise
+No hidden fees guarantee
+
+Advanced Animations & Interactions:
+
+Loading screen with electrical bolt animation
+Parallax scrolling background images
+Service cards that flip to reveal more details
+Animated progress bars for experience/stats
+Floating action button for phone calls (mobile)
+Smooth transitions between all sections
+Hover effects on all interactive elements
+CSS transforms for 3D card effects
+
+Mobile Optimization:
+
+Collapsible hamburger navigation
+Touch-friendly button sizes (minimum 44px)
+Optimized images for mobile screens
+Fast loading priority content
+Swipe gestures for gallery and testimonials
+Sticky call-to-action button
+
+Call-to-Action Strategy:
+
+Primary: "Get Free Quote" (orange buttons)
+Secondary: "Call 01206 645 155" (outlined buttons)
+Emergency: "24/7 Emergency Service" (red accent for urgency)
+Social proof: "Join 250+ Happy Customers"
+
+Content Tone & Messaging:
+
+Professional yet approachable
+Emphasis on sustainability and innovation
+Technical expertise balanced with clear communication
+Local Colchester/East Essex focus
+Quality and reliability emphasis
+
+Performance Features:
+
+Critical CSS for above-the-fold content
+Compressed and optimized images
+Minified JavaScript and CSS
+Google PageSpeed optimized
+Schema markup for local SEO
+
+Special Effects:
+
+Electrical spark animations on hover
+Gradient overlays with brand colors
+Box shadows and depth effects
+Subtle pulsing effects on important CTAs
+Custom electrical-themed icons and graphics
+
+This website should showcase Boost Electrical as a premium, modern, tech-savvy electrical contractor that stands far above their competition, making their current website look completely outdated by comparison.RetryClaude can make mistakes. Please double-check responses.

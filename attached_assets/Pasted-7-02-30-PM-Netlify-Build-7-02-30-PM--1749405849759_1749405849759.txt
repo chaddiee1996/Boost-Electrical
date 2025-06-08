@@ -1,0 +1,76 @@
+7:02:30 PM: Netlify Build                                                 
+7:02:30 PM: ────────────────────────────────────────────────────────────────
+7:02:30 PM: ​
+7:02:30 PM: ❯ Version
+7:02:30 PM:   @netlify/build 33.4.3
+7:02:30 PM: ​
+7:02:30 PM: ❯ Flags
+7:02:30 PM:   accountId: 67485165041fd08f7295147e
+7:02:30 PM:   baseRelDir: true
+7:02:30 PM:   buildId: 6845d01be4f9ff0008632e22
+7:02:30 PM:   deployId: 6845d01be4f9ff0008632e24
+7:02:30 PM: ​
+7:02:30 PM: ❯ Current directory
+7:02:30 PM:   /opt/build/repo
+7:02:30 PM: ​
+7:02:30 PM: ❯ Config file
+7:02:30 PM:   /opt/build/repo/netlify.toml
+7:02:30 PM: ​
+7:02:30 PM: ❯ Context
+7:02:30 PM:   production
+7:02:30 PM: ​
+7:02:30 PM: build.command from netlify.toml                               
+7:02:30 PM: ────────────────────────────────────────────────────────────────
+7:02:30 PM: ​
+7:02:30 PM: $ npm install && cd client && npm install && npx vite build
+7:02:31 PM: up to date, audited 482 packages in 1s
+7:02:31 PM: 64 packages are looking for funding
+7:02:31 PM:   run `npm fund` for details
+7:02:31 PM: 7 moderate severity vulnerabilities
+7:02:31 PM: To address issues that do not require attention, run:
+7:02:31 PM:   npm audit fix
+7:02:31 PM: To address all issues (including breaking changes), run:
+7:02:31 PM:   npm audit fix --force
+7:02:31 PM: Run `npm audit` for details.
+7:02:56 PM: added 335 packages, and audited 336 packages in 24s
+7:02:56 PM: 48 packages are looking for funding
+7:02:56 PM:   run `npm fund` for details
+7:02:56 PM: 2 moderate severity vulnerabilities
+7:02:56 PM: To address all issues (including breaking changes), run:
+7:02:56 PM:   npm audit fix --force
+7:02:56 PM: Run `npm audit` for details.
+7:02:56 PM: vite v5.4.19 building for production...
+7:02:56 PM: transforming...
+7:02:58 PM: Failed during stage 'building site': Build script returned non-zero exit code: 2 (https://ntl.fyi/exit-code-2)
+7:02:58 PM: ✓ 1644 modules transformed.
+7:02:58 PM: x Build failed in 1.76s
+7:02:58 PM: error during build:
+7:02:58 PM: [vite:load-fallback] Could not load /opt/build/repo/client/src/lib/schema (imported by src/components/sections/contact.tsx): ENOENT: no such file or directory, open '/opt/build/repo/client/src/lib/schema'
+7:02:58 PM: Error: Could not load /opt/build/repo/client/src/lib/schema (imported by src/components/sections/contact.tsx): ENOENT: no such file or directory, open '/opt/build/repo/client/src/lib/schema'
+7:02:58 PM: ​
+7:02:58 PM: "build.command" failed                                        
+7:02:58 PM: ────────────────────────────────────────────────────────────────
+7:02:58 PM: ​
+7:02:58 PM:   Error message
+7:02:58 PM:   Command failed with exit code 1: npm install && cd client && npm install && npx vite build (https://ntl.fyi/exit-code-1)
+7:02:58 PM: ​
+7:02:58 PM:   Error location
+7:02:58 PM:   In build.command from netlify.toml:
+7:02:58 PM:   npm install && cd client && npm install && npx vite build
+7:02:58 PM: ​
+7:02:58 PM:   Resolved config
+7:02:58 PM:   build:
+7:02:58 PM:     command: npm install && cd client && npm install && npx vite build
+7:02:58 PM:     commandOrigin: config
+7:02:58 PM:     environment:
+7:02:58 PM:       - NODE_VERSION
+7:02:58 PM:     publish: /opt/build/repo/client/dist
+7:02:58 PM:     publishOrigin: config
+7:02:58 PM:   redirects:
+7:02:58 PM:     - from: /*
+      status: 200
+      to: /index.html
+  redirectsOrigin: config
+7:02:58 PM: Build failed due to a user error: Build script returned non-zero exit code: 2
+7:02:58 PM: Failing build: Failed to build site
+7:02:59 PM: Finished processing build request in 46.077s
